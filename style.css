@@ -1,0 +1,276 @@
+/* General styles */
+body {
+    font-family: Merriweather,Poppins ;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.header {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.header h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    color: black;
+    line-height: 1.2;
+    font-style: italic;
+  }
+  
+  .header h1::before,
+  .header h1::after {
+    content: "";
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    background-color: black;
+    vertical-align: middle;
+    margin: 0 20px;
+  }
+  
+  .header h1 span {
+    color: #004aad;
+    font-size: 55px;
+    font-family: "Merriweather", serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+  }
+  
+  .header span:hover {
+    color: #ffd700;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar a.active, .navbar a:hover {
+    text-decoration: underline;
+    background-color: #007bb5;
+}
+.culture-section hidden h1 {
+    color: #004aad;
+}
+
+/* Culture Section */
+.culture-section {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    color: black;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.culture-section h1 {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.culture-section h1 span{
+    font-family: "Merriweather", serif;
+    color: #004aad;
+    font-size: 55px;
+    font-family: "Merriweather", serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+}
+
+.culture-section h1::before,
+.culture-section h1::after {
+    content: "";
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    background-color: black;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+
+.culture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.culture-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+.culture-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth movement and shadow transition */
+}
+
+.culture-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.culture-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.culture-card p {
+    font-size: 16px;
+    color: #555;
+    padding: 0 15px 15px;
+}
+
+.culture-card:hover {
+    transform: translateY(-10px); /* Moves the card up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adds a shadow effect for depth */
+}
+
+/* Optionally, make the images in the culture cards scale slightly when hovered */
+.culture-card:hover img {
+    transform: scale(1.05); /* Slightly enlarges the image */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* More Button */
+.more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top:10px;
+    background-color: #197aca;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.more-button:hover {
+    background-color: #87ceeb; /* Slightly darker skyblue */
+}
+
+/* Hidden class for elements we want to hide initially */
+.hidden {
+    display: none;
+}
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+.details-section {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.details-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.image-text {
+    max-width: 800px;
+    text-align: left;
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-text p {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.details-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.details-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Festival Details Section */
+#festival-details {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.festival-info {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.festival-info img {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.festival-info h3 {
+    font-size: 22px;
+    color: #004aad;
+}
+
+.festival-info p {
+    font-size: 16px;
+    color: #555;
+}
