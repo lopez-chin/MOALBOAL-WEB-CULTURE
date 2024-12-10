@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Dance</title>
+    <style>
+        body {
+            font-family: 'Merriweather', 'Poppins', sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            background-color: #caf0f8;
+            color: #333;
+        }
+        .header {
+            width: 100%;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            text-align: center;
+            font-size: 48px;
+            font-family: "Merriweather", serif;
+            color: black;
+            line-height: 1.2;
+            font-style: italic;
+          }
+          
+          .header h1::before,
+          .header h1::after {
+            content: "";
+            display: inline-block;
+            width: 20%;
+            height: 3px;
+            background-color: black;
+            vertical-align: middle;
+            margin: 0 20px;
+          }
+          
+          .header h1 span {
+            color: #004aad;
+            font-size: 55px;
+            font-family: "Merriweather", serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            font-style: italic;
+          }
+          
+          .header span:hover {
+            color: #ffd700;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+          }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 20px;
+        }
+        .festival {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .festival:last-child {
+            border-bottom: none;
+        }
+        .description {
+            flex: 1;
+        }
+        .description h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .description p {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.7;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1><span>Traditional Dance</span></h1>
+    </header>
+    <div class="content">
+        <div class="festival">
+            <div class="description">
+                <h2>Moalboal Traditional Dance</h2>
+                <p>Moalboal’s traditional dances are a vibrant expression of its rich cultural heritage, showcasing the artistry and deep-rooted traditions of the Cebuano people.
+                    These dances reflect the region's historical, social, and religious influences, often performed during festivals, community gatherings, and significant celebrations.<br>
+                    Another notable form of traditional dance in Moalboal is the “Kuradang,” often performed during local festivities and weddings. 
+                    The Kuradang is a courtship dance that combines playful gestures and flirtatious movements, embodying the joy and unity of the community. The dancers, dressed in 
+                    traditional Filipino attire, showcase their skills through lively footwork and expressive gestures, bringing smiles to spectators.
+
+                    Traditional dances in Moalboal also often depict the everyday lives of its people, including farming, fishing, and communal activities. These performances serve 
+                    as a way of preserving the stories, values, and customs of the past, passed down through generations. 
+                </p>
+            </div>
+            <div class="image">
+                <img src="project-folder/dance.jpg" alt="Traditional Dance">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

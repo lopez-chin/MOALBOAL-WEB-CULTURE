@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinulog and Kagasangan Festivals</title>
+    <style>
+        body {
+            font-family: 'Merriweather', 'Poppins', sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            background-color: #caf0f8;
+            color: #333;
+        }
+        .header {
+            width: 100%;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            text-align: center;
+            font-size: 48px;
+            font-family: "Merriweather", serif;
+            color: black;
+            line-height: 1.2;
+            font-style: italic;
+          }
+          
+          .header h1::before,
+          .header h1::after {
+            content: "";
+            display: inline-block;
+            width: 20%;
+            height: 3px;
+            background-color: black;
+            vertical-align: middle;
+            margin: 0 20px;
+          }
+          
+          .header h1 span {
+            color: #004aad;
+            font-size: 55px;
+            font-family: "Merriweather", serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            font-style: italic;
+          }
+          
+          .header span:hover {
+            color: #ffd700;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+          }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 20px;
+        }
+        .festival {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .festival:last-child {
+            border-bottom: none;
+        }
+        .description {
+            flex: 1;
+        }
+        .description h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .description p {
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .festival-2 {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Moalboal <span>Festivals</span></h1>
+    </header>
+    <div class="content">
+        <div class="festival">
+            <div class="description">
+                <h2>Sinulog Festival</h2>
+                <p>The Sinulog Festival is a vibrant celebration of Cebuano culture and religious devotion to the Sto. Niño.
+                    The Sinulog Festival in Moalboal is a vibrant celebration that honors the Santo Niño (Child Jesus) through colorful parades, 
+                    traditional dances, and religious rituals. Held annually in January, the festival draws locals and tourists alike, featuring 
+                    the signature "Sinulog" dance, which mimics the movement of the river's current. Participants wear bright, intricate costumes,
+                     and the streets are filled with music, drum beats, and joyous celebrations. The festival not only showcases Moalboal's rich 
+                     cultural heritage but also highlights the deep religious devotion of its people. It’s a unique fusion of faith, tradition, and
+                      community spirit that captivates all who attend.
+                </p>
+            </div>
+            <div class="image">
+                <img src="project-folder/Sinulog-Festivals.jpg" alt="Sinulog Picture">
+            </div>
+        </div>
+        <div class="festival-2">
+            <div class="description">
+                <h2>Kagasangan Festival</h2>
+                <p>Moalboal’s pride: ‘Kagasangan Festival’s’ dance of the sea</p>
+                <p>The “Kagasangan Festival” secured seventh place in the “Best Festival” category for Pasigarbo 2023, while its Festival Queen, Michelle Oppliger, finished fourth as Pasigarbo Festival Queen.
+                    Moalboal Mayor Inocentes “Titing” Cabaron expressed in his introductory speech for the “Kagasangan Festival” that the town is blessed with many natural resources, 
+                    from the wind and fresh air to the bodies of water, the sea, and the rich agricultural soil. This well-endowed town has become a major tourist attraction in the 
+                    region due to its famous beaches and rich marine life.</p>
+            </div>
+            <div class="image">
+                <img src="project-folder/kagasangan.jpg" alt="Kagasangan Picture">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

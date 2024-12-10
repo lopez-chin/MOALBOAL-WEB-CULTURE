@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebuano Cuisine</title>
+    <style>
+        body {
+            font-family: 'Merriweather', 'Poppins', sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f0;
+            color: #333;
+        }
+        .header {
+            width: 100%;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            text-align: center;
+            font-size: 48px;
+            font-family: "Merriweather", serif;
+            color: black;
+            line-height: 1.2;
+            font-style: italic;
+          }
+          
+          .header h1::before,
+          .header h1::after {
+            content: "";
+            display: inline-block;
+            width: 20%;
+            height: 3px;
+            background-color: black;
+            vertical-align: middle;
+            margin: 0 20px;
+          }
+          
+          .header h1 span {
+            color: #004aad;
+            font-size: 55px;
+            font-family: "Merriweather", serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            font-style: italic;
+          }
+          
+          .header span:hover {
+            color: #ffd700;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+          }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 20px;
+        }
+        .festival {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ffff;
+            padding-bottom: 40px;
+            gap: 20px;
+        }
+        .festival:last-child {
+            border-bottom: none;
+        }
+        .description {
+            flex: 1;
+        
+        }
+        .description h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            
+        }
+        .description p {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 3px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.6;
+            gap: 40px;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 400px;
+            max-height: 300px;
+            width: 500px;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1><span>Traditional Cuisine</span></h1>
+    </header>
+    <div class="content">
+        <div class="festival">
+            <div class="description">
+                <h2>Moalboal Cuisine</h2>
+                <p> Moalboal is very known when it comes to seafoods.Moalboal’s cuisine is a delightful blend of traditional
+                    Filipino flavors and the unique culinary influences of Cebu. Known for its fresh seafood, tropical fruits,
+                    and hearty dishes, Moalboal offers visitors an unforgettable gastronomic experience.<br>
+                    Seafood takes center stage in Moalboal's culinary scene, thanks to its coastal location. Freshly caught fish, 
+                    crabs, squid, and prawns are often grilled, steamed, or incorporated into local delicacies like kinilaw, a dish 
+                    of raw fish marinated in vinegar, calamansi juice, and spices. These dishes reflect the region’s reliance on the 
+                    bounties of the sea.Moalboal's cuisine embodies the town’s culture and hospitality, offering visitors a chance to 
+                    savor authentic Filipino dishes while enjoying the warm, tropical ambiance of this charming coastal destination.
+
+                </p>
+            </div>
+            <div class="image">
+                <img src="project-folder/Cusine food.jpg" alt="Cuisine in Moalboal">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

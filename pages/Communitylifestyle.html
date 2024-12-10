@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Lifestyle</title>
+    <style>
+        body {
+            font-family: 'Merriweather', 'Poppins', sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f0;
+            color: #333;
+        }
+        .header {
+            width: 100%;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            text-align: center;
+            font-size: 48px;
+            font-family: "Merriweather", serif;
+            color: black;
+            line-height: 1.2;
+            font-style: italic;
+          }
+          
+          .header h1::before,
+          .header h1::after {
+            content: "";
+            display: inline-block;
+            width: 20%;
+            height: 3px;
+            background-color: black;
+            vertical-align: middle;
+            margin: 0 20px;
+          }
+          
+          .header h1 span {
+            color: #004aad;
+            font-size: 55px;
+            font-family: "Merriweather", serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            font-style: italic;
+          }
+          
+          .header span:hover {
+            color: #ffd700;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+          }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 20px;
+        }
+        .festival {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ffff;
+            padding-bottom: 20px;
+        }
+        .festival:last-child {
+            border-bottom: none;
+        }
+        .description {
+            flex: 1;
+        }
+        .description h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .description p {
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1><span>Community Lifestyle</span></h1>
+    </header>
+    <div class="content">
+        <div class="festival">
+            <div class="description">
+                <h2>Lifesyle in Moalboal</h2>
+                <p>
+                    The community lifestyle in Moalboal is laid-back, vibrant, and closely connected to nature.
+                    This coastal town in Cebu thrives on a mix of traditional farming, fishing, and growing tourism, 
+                    which shapes the daily lives of its residents. Most locals lead simple, peaceful lives, with a strong 
+                    sense of community and hospitality.<br>
+                    Fishing is a vital part of the economy, and many families rely on it for their livelihood. Early mornings 
+                    are filled with fishermen setting out to sea, and fresh catches are often seen being sold at the local markets.
+                    The town also has a growing tourism industry, with resorts, dive shops, and tour operators offering opportunities 
+                    for both locals and tourists to work in the hospitality and tourism sectors.<br>The people of Moalboal are known for 
+                    their warmth and friendliness. Visitors often comment on how welcoming the locals are, and the tight-knit community ensures that everyone looks out for one another.
+
+                    Despite the rise of tourism, traditional Filipino values like respect for elders, family closeness, and community 
+                    spirit remain central to Moalboal’s way of life. This blend of traditional and modern influences makes Moalboal a 
+                    unique and charming place to live or visit, offering a balance between a peaceful rural lifestyle and the dynamic energy brought by tourism.
+
+
+                </p>
+            </div>
+            <div class="image">
+                <img src="project-folder/Lifestyle.avif" alt="Community">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
